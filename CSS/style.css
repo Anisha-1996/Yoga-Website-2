@@ -13,12 +13,12 @@ body {
     font-family: "Dosis",serif;
 }
 .container {
-    max-width: 1240px;
+    max-width: 1220px;
     width: 100%;
     margin: 0 auto;
     /* border: 1px solid red; */
 }
-/* ___________Nav CSS */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -56,7 +56,7 @@ font-weight: 600;
     text-decoration: none;
     color: #9b315d;
 }
-/* __________Banner CSS */
+
 .banner {
     max-width: 100%;
     width: 100%;
@@ -107,7 +107,7 @@ h2 span {
     font-weight: 700;
     margin-top: 1rem;
 }
-/* ___________PhiloSophy Css || Yoga Begin CSS || Methodology CSS */
+
 .philosophy,.yogaBegin,.methodology {
     padding-top: 104px;
 }
@@ -138,7 +138,7 @@ h2 span {
 .phyImage  img ,.yogaImage img,.methodImage img{
     max-width: 100%;
 }
-/* _________feature Css */
+
 .features  {
     padding-top: 196px;
 }
@@ -191,7 +191,7 @@ h2 span {
     margin: 0 auto;
     margin-top: 1.7rem;
 }
-/* _____________Slider CSS */
+
 .slider {
     padding-top: 140px;
 }
@@ -219,7 +219,7 @@ h2 span {
     justify-content: center;
     align-items: center;
 }
-/* ______________Register Css */
+
 .regDiv {
     display: flex;
     justify-content: space-between;
@@ -265,7 +265,7 @@ h2 span {
     width: 100%;
     height: auto;
 }
-/* ________Free Class CSS */
+
 .freeClass {
     padding-top: 138px;
 }
@@ -302,7 +302,7 @@ h2 span {
     font-weight: 500;
     margin-top: 1.5rem;
 }
-/* ___________Therapy CSS */
+
 .therapy {
     height: 40vh;
     background-image: url("/Images/Therapyimage.png");
@@ -326,7 +326,7 @@ h2 span {
     font-size: 38px;
     font-weight: 500;
 }
-/* ______________Footer Css */
+
 footer {
     background-color: #9b315d;
     color: #fff;
@@ -362,9 +362,9 @@ h5 {
     margin-top: 4rem;
     text-align: center;
 }
-/* _________Responsive Section_________________ */
+
 @media screen and (max-width: 1399px) {
-    /* ___________NavBar Responsive */
+
     .navbar {
         width: 80%;
     }
@@ -374,19 +374,19 @@ h5 {
     .logo img{
         width: 65px;
     }
-    /* __________Banner Responsive */
+
     .bannerDiv {
         padding-right: 2rem;
     }
-    /* ________Philosophy Responsive || YogaBegin Responsive || Methodology Responsive */
+    
     .phyDiv , .yogaBeginDiv,.methodDiv{
         padding: 0 2rem;
     }
-    /* _______________Register Responsive */
+    
     .regDiv {
         padding: 0 3rem;
     }
-    /* _______Free Class Responsive */
+    
     .freeClass {
         padding: 0 1.5rem;
     }
@@ -395,7 +395,7 @@ h5 {
     }
 }
 @media screen and (max-width: 1199px) {
-    /* __________NavBar Responsive */
+    
     .navbar {
         width: 90%;
     }
@@ -403,11 +403,11 @@ h5 {
         max-width: 100%;
         width: 60%;
     }
-    /* ______Banner Responsive */
+    
     .banner {
         height: 80vh;
     }
-    /* _____________Features CSS */
+    
     .featureCard img {
         width: 80%;
         max-width: 100%;
@@ -422,7 +422,7 @@ h5 {
         max-width: 100%;
         text-align: center;
     }
-    /* _______Slider Responsive */
+    
     .slideImage img{
         width: 100%;
         max-width: 100%;
@@ -446,7 +446,7 @@ h5 {
         margin-top: 1rem;
         font-size: 22px;
     }
-    /* __________Banner Responsive */
+    
     .banner {
         height: 60vh;
     }
@@ -459,7 +459,7 @@ h5 {
         box-shadow: 0 0 20px #fff;
         color: #fff;
       }
-      /* __________Philosophy Responsive || YogaBegin || Methodology Responsive*/
+    
       .phyDiv,.yogaBeginDiv,.methodDiv {
         flex-direction: column;
       }
@@ -475,7 +475,7 @@ h5 {
         margin-top: 2rem;
         max-width: 100%;
       }
-      /* _________Features Responsive */
+
     .featureDiv {
         flex-direction: column;
         align-items: center;
@@ -494,12 +494,12 @@ h5 {
     .featureCard button {
         margin-top: 2rem;
     }
-    /* ______________Slider Responsive */
+    
     .slideLeft,.slideRight {
         width: 40px;
         height: 40px;
     }
-    /* ___________Register Responsive */
+   
     .regText h2 {
         font-size: 40px;
     }
@@ -509,7 +509,7 @@ h5 {
     #regp2 {
         font-size: 28px;
     }
-    /* __________Footer Responsive */
+    
     .footerText {
         flex-direction: column;
         align-items: center;
@@ -532,11 +532,11 @@ h5 {
     .phyText p {
         font-size: 18px;
     }
-    /* _______Features Responsive */
+    
     .featureCard {
         width: 60%;
     }
-    /* _____________Slider Responsive */
+    
     .slideImage {
         width: 20%;
     }
@@ -544,7 +544,7 @@ h5 {
         font-size: 16px;
         max-width: 160px;
     }
-    /* ________________Register Rsponsive */
+
     .register {
         padding: 0 1rem;
     }
@@ -562,7 +562,7 @@ h5 {
         height: 40px;
         font-size: 15px;
     }
-    /* ____________FREE CLASS RESPONSIVE */
+    
     .freeClassDiv {
         flex-direction: column;
         align-items: center;
@@ -571,7 +571,7 @@ h5 {
         width: 70%;
         margin-top: 1rem;
     }
-    /* __________Therapy Responsive */
+    
     .therapyHead {
         font-size: 40px;
     }
@@ -600,7 +600,7 @@ h5 {
         margin: 0 auto;
         margin-top: 1rem;
     }
-    /* __________Philosophy Responsive || YogaBegin Responsive || Method Responsive*/
+
     .phyText button ,.yogaText button,.methodText button{
         display: block;
         margin: 0 auto;
@@ -613,7 +613,7 @@ h5 {
     .phyText p ,.yogaText p,.methodText p{
         font-size: 14px;
     }
-    /* ___________Features Responsive */
+    
     .featureCard {
         width: 80%;
     }
@@ -631,7 +631,7 @@ h5 {
         border-radius: 16px;
         font-size: 15px;
     }
-    /* ___________Slider Responsive */
+    
     .slideText p {
         font-size: 11px;
     }
@@ -640,7 +640,7 @@ h5 {
         height: 25px;
         font-size: 11px;
     }
-    /* ___________Register Responsive */
+    
     .regDiv {
         flex-direction: column;
         align-items: center;
@@ -661,7 +661,7 @@ h5 {
     .regText button {
         margin-top: 15px;
     }
-    /* __________Free Class Responsive */
+    
     .freeClassCard {
         width: 90%;
     }
@@ -671,7 +671,7 @@ h5 {
     .freeHead {
         font-size: 19px;
     }
-    /* __________Therapy Responsive */
+    
     .therapy {
         height: 20vh;
         margin-top: 60px;
@@ -682,7 +682,7 @@ h5 {
     .therapyText p {
         font-size: 20px;
     }
-    /* _________Footer Responsive */
+    
     .footerDiv {
         padding-top: 10px;
     }
